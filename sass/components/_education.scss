@@ -1,0 +1,27 @@
+  .education__list {
+  list-style: none;
+  }
+  .education__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .education__period-devider {
+    color: $secondary-text-color;
+  }
+  
+  .education__institution {
+  @include font (16px, 700, 1.21, 0.03em);
+    color: $accent-color;
+    margin-bottom: 10px;
+  }
+  
+  .education__profession {
+  @include font (16px, 700, 1.21, 0.03em);
+    line-height: 17px;
+    color: $secondary-text-color;
+    margin-bottom: 10px;
+  }
+  
+  .education__period {
+  @include font (12px, 400, 1.21, 0.03em);
+    color: $tertiary-color;
+  }

@@ -1,0 +1,52 @@
+.projects {
+    margin-bottom: 20px;
+  }
+  .projects__list {
+    padding-left: 20px;
+  }
+  .projects__item {
+  @include font (14px, 700, 1.71, 0.03em);
+    color: $secondary-text-color;
+  }
+  .projects__text {
+  @include font (14px, 400, 1.71, 0.03em);
+    color: $primary-text-color;
+  } 
+  .projects__link {
+  @include transition (color);
+  @include font (16px, 700, 1.85, 0.03em);
+    color: $primary-text-color;
+    margin-right: 5px;
+   order: -1;
+    &:hover{
+      color: $hover-color;
+    }
+  }
+  .projects__link-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 25px;
+    &::before {
+      content: "";
+      flex-grow: 1;
+      height: 1px;
+      background-color: rgba($primary-text-color, 0.12);
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+  }
+  .projects__link--git {
+    @include transition (background-color);
+    display: inline-block;
+    background-image: url('../../images/github.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 5px;
+    &:hover{
+      background-color: $hover-color;
+    }
+  }

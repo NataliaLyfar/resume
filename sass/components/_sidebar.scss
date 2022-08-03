@@ -1,0 +1,63 @@
+.sidebar,
+.sidebar--mobile {
+  background-color: $secondary-color;
+  padding: 40px 0 0;
+}
+
+.sidebar {
+  display: none;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+}
+
+.sidebar--mobile {
+  margin-bottom: 20px;
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+}
+
+.photo-wrapper {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+
+.sidebar__title {
+@include font (16px, 700, 1.71, 0.03em);
+  color: $primary-color;
+}
+
+
+.contacts__link {
+@include font (14px, 400, 1.71, 0.03em);
+ font-family: inherit;
+  color: $primary-color;
+  opacity: 0.8;
+}
+
+.tech-skills__list,
+.soft-skills__list {
+  padding-left: 15px;
+}
+
+.tech-skills__item,
+.soft-skills__item {
+  color: $hover-color;
+}
+
+.tech-skills__text,
+.soft-skills__text {
+@include font (14px, 400, 1.71, 0.03em);
+  color: $primary-color;
+}

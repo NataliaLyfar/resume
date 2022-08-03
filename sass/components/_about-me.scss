@@ -1,0 +1,19 @@
+.about-me {
+  margin-bottom: 20px;
+}
+.about-me__profession {
+  @include font (14px, 700, 1.21, 0.03em);
+    color: $secondary-text-color;
+    margin-bottom: 20px;
+  }
+  
+  .about-me__title {
+  @include font (22px, 700, 1.21, 0.03em);
+    color: $secondary-text-color;
+    margin-bottom: 10px;
+  }
+  
+  .about-me__description {
+  @include font (14px, 400, 1.71, 0.03em);
+    width: 100%;
+  }

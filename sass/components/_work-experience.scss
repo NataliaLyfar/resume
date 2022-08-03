@@ -1,0 +1,39 @@
+  .work-experience {
+    margin-bottom: 20px;
+  }
+  
+  .work-experience__list{
+    list-style: none;
+  }
+
+  .work-experience__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .work-experience__list-achievment {
+    padding-left: 20px;
+  }
+
+  .work-experience__profession {
+  @include font (16px, 700, 1.25, 0.03em);
+    color: $secondary-text-color;
+    margin-bottom: 10px;
+  }
+  .work-experience__company {
+  @include font (16px, 700, 1.25, 0.03em);
+    color: $accent-color;
+    margin-bottom: 10px;
+  }
+  
+  .work-experience__time {
+  @include font (12px, 400, 1.25, 0.03em);
+    color: $tertiary-color;
+    margin-bottom: 10px;
+  }
+  .work-experience__devider {
+    color: $secondary-text-color;
+  }
+  
+  .work-experience__text {
+  @include font (14px, 400, 1.71, 0.03em);
+  }
