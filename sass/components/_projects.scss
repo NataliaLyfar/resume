@@ -15,7 +15,7 @@
   .projects__link {
   @include transition (color);
   @include font (16px, 700, 1.85, 0.03em);
-    color: $primary-text-color;
+    color: $accent-color;
     margin-right: 5px;
    order: -1;
     &:hover{
@@ -27,6 +27,7 @@
     align-items: baseline;
     justify-content: space-between;
     height: 25px;
+    margin-bottom: 2px;
     &::before {
       content: "";
       flex-grow: 1;
@@ -36,12 +37,9 @@
       margin-right: 6px;
     }
   }
-  .projects__link--git {
+
+  .git-hub__icon {
     @include transition (background-color);
-    display: inline-block;
-    background-image: url('../../images/github.png');
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 25px;
     height: 25px;
     border-radius: 50%;
