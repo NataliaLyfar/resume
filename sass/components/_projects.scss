@@ -14,7 +14,7 @@
   } 
   .projects__link {
   @include transition (color);
-  @include font (18px, 700, 1.85, 0.03em);
+  @include font (18px, 700, 1.71, 0.03em);
     color: $accent-color;
     margin-right: 5px;
    order: -1;
