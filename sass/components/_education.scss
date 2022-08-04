@@ -11,14 +11,14 @@
   .education__institution {
   @include font (16px, 700, 1.21, 0.03em);
     color: $accent-color;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .education__profession {
   @include font (16px, 700, 1.21, 0.03em);
     line-height: 17px;
     color: $secondary-text-color;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .education__period {

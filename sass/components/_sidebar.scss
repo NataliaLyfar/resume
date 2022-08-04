@@ -14,7 +14,7 @@
 }
 
 .sidebar--mobile {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   @media screen and (min-width: $tablet) {
     display: none;
   }
@@ -23,14 +23,16 @@
 .photo-wrapper {
   width: 100%;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin: 0 auto 15px;
 }
-
+.photo {
+  width: 100%;
+}
 .contacts,
 .tech-skills,
 .soft-skills {
   padding: 0 30px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .sidebar__title {

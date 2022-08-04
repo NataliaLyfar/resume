@@ -17,18 +17,18 @@
   .work-experience__profession {
   @include font (16px, 700, 1.25, 0.03em);
     color: $secondary-text-color;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .work-experience__company {
   @include font (16px, 700, 1.25, 0.03em);
     color: $accent-color;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .work-experience__time {
   @include font (12px, 400, 1.25, 0.03em);
     color: $tertiary-color;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .work-experience__devider {
     color: $secondary-text-color;
